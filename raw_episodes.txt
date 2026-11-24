@@ -1,0 +1,431 @@
+# ep|date|guests (semicolon separated)|cat|flag
+# cat: MU music, AC actor, CO comedian, AT athlete, WM wrestling/MMA, CH chef/food, CR creator, ME media/host, OT other
+# flag: blank=regular, B=bonus, R=removed from YouTube, H=holiday special, C=fictional/promo character
+# Source for ep numbers, titles-derived guests, dates: Wikipedia "List of Hot Ones episodes" (retrieved 2026-11-22). Categories are analyst-coded.
+1|2015-03-12|Tony Yayo|MU|
+2|2015-05-12|Anthony Rizzo|AT|
+3|2015-06-11|Machine Gun Kelly|MU|
+4|2015-06-23|Gunplay|MU|
+5|2015-08-11|Ja Rule|MU|
+6|2015-08-26|B.o.B.|MU|
+7|2015-10-07|Prince Amukamara|AT|
+8|2015-10-22|DJ Khaled|MU|
+9|2015-12-10|Curren$y|MU|
+10|2015-12-17|Tinashe|MU|
+11|2016-02-03|Tommy Chong|CO|
+12|2016-02-12|T.J. Miller|CO|
+13|2016-03-07|Coolio|MU|
+14|2016-04-07|Joey Fatone|MU|
+15|2016-04-13|Michael Rapaport|AC|
+16|2016-04-28|Keegan-Michael Key;Jordan Peele|CO|
+17|2016-05-05|Riff Raff|MU|
+18|2016-05-31|Eddie Huang|CH|
+19|2016-06-09|Chris D'Elia|CO|
+20|2016-06-21|Mike Epps|CO|
+21|2016-06-23|Jim Gaffigan|CO|
+22|2016-06-30|Carly Aquilino|CO|
+23|2016-07-07|Redman|MU|
+24|2016-07-14|Rob Gronkowski|AT|
+25|2016-07-21|Rob Corddry|CO|
+26|2016-07-28|Jeff Ross|CO|
+27|2016-07-29|David Cross|CO|
+28|2016-08-04|Eric André|CO|
+29|2016-08-11|Joe Budden|MU|
+30|2016-08-18|Matty Matheson|CH|
+31|2016-08-25|RZA;Paul Banks|MU|
+32|2016-09-01|Bert Kreischer|CO|
+33|2016-09-08|YG|MU|
+34|2016-09-15|Jay Pharoah|CO|
+35|2016-09-22|Harley Morenstein|CR|
+36|2016-09-29|Travis Kelce|AT|
+37|2016-10-06|Hasan Minhaj|CO|
+38|2016-10-11|Kevin Hart|CO|
+39|2016-10-20|Martin Garrix|MU|
+40|2016-10-27|Bobby Lee|CO|
+41|2016-11-05|Tony Hawk|AT|
+42|2016-11-10|Action Bronson|MU|
+43|2016-11-17|T-Pain|MU|
+44|2016-11-24|Rachael Ray|CH|
+45|2016-12-01|Tom Colicchio|CH|
+46|2016-12-08|Post Malone|MU|
+47|2016-12-15|N.O.R.E.|MU|
+48|2016-12-22|James Franco;Bryan Cranston|AC|
+49|2017-01-19|Padma Lakshmi|CH|
+50|2017-01-26|Joey Diaz|CO|
+51|2017-02-02|Danny Brown|MU|
+52|2017-02-09|Ricky Gervais|CO|
+53|2017-02-16|Charlie Day|AC|
+54|2017-02-23|Mac DeMarco|MU|
+55|2017-03-02|Russell Brand|CO|
+56|2017-03-09|Charlie Sloth|MU|
+57|2017-03-16|Kyle Kinane|CO|
+58|2017-03-23|Dax Shepard|AC|
+59|2017-03-30|Ethan Klein;Hila Klein|CR|
+60|2017-04-06|Keke Palmer|AC|
+61|2017-04-13|Charlamagne Tha God|ME|
+62|2017-04-20|DJ Snake|MU|
+63|2017-04-27|Guy Fieri|CH|
+64|2017-05-04|Kevin Love|AT|
+65|2017-05-11|Neil deGrasse Tyson|OT|
+66|2017-05-18|Thomas Middleditch|AC|
+67|2017-05-25|Andy Cohen|ME|
+68|2017-06-01|Tom Arnold|AC|
+69|2017-06-08|Coyote Peterson|CR|
+70|2017-06-15|Nick Kroll|CO|
+71|2017-06-22|Brett Baker|OT|
+72|2017-06-29|Seth Rogen;Dominic Cooper|AC|
+73|2017-07-20|Cara Delevingne|AC|
+74|2017-07-27|Liam Payne|MU|
+75|2017-08-03|Steve-O|CO|
+76|2017-08-10|Vince Staples|MU|
+77|2017-08-17|Adam Richman|CH|
+78|2017-08-24|ASAP Ferg|MU|
+79|2017-08-31|Kevin Durant|AT|
+80|2017-09-07|Henry Rollins|MU|
+81|2017-09-14|Dillon Francis|MU|
+82|2017-09-21|Joji|MU|
+83|2017-09-28|Wanda Sykes|CO|
+84|2017-10-05|Terry Crews|AC|
+85|2017-10-12|Gary Vaynerchuk|OT|
+86|2017-10-19|Artie Lange|CO|
+87|2017-10-26|Chris Jericho|WM|
+88|2017-11-02|Gabrielle Union|AC|
+89|2017-11-09|Wale|MU|
+90|2017-11-16|Bob Saget|CO|
+91|2017-11-23|Mario Batali|CH|R
+92|2017-11-30|Alexa Chung|ME|
+93|2017-12-07|Logic|MU|
+94|2017-12-14|Casey Neistat|CR|
+95|2017-12-21|Holiday Special (various)|OT|H
+96|2017-12-28|Chili Klaus|CR|
+97|2018-01-18|Taraji P. Henson|AC|
+98|2018-01-25|Sasha Banks|WM|
+99|2018-02-01|Von Miller|AT|
+100|2018-02-08|Rich Brian|MU|
+101|2018-02-15|Hannibal Buress|CO|
+102|2018-02-22|Michael B. Jordan|AC|
+103|2018-03-01|Ty Burrell|AC|
+104|2018-03-08|Charlize Theron|AC|
+105|2018-03-15|Adam Rippon|AT|
+106|2018-03-22|Gabriel Iglesias|CO|
+107|2018-03-29|Shawn Mendes|MU|
+108|2018-04-05|Philip DeFranco|CR|
+109|2018-04-12|Trick Daddy|MU|
+110|2018-04-19|Tyra Banks|ME|
+111|2018-04-26|Alton Brown|CH|
+112|2018-05-03|John Mayer|MU|
+113|2018-06-07|Johnny Knoxville|AC|
+114|2018-06-14|Natalie Portman|AC|
+115|2018-06-21|Marques Brownlee|CR|
+116|2018-06-28|Joel Embiid|AT|
+117|2018-07-12|Tom Segura|CO|
+118|2018-07-19|Joji;Rich Brian|MU|
+119|2018-07-26|Wiz Khalifa|MU|
+120|2018-08-02|Al Roker|ME|
+121|2018-08-09|Michael Cera|AC|
+122|2018-08-16|Issa Rae|AC|
+123|2018-08-23|Rhett McLaughlin;Link Neal|CR|
+124|2018-08-30|Jeff Goldblum|AC|
+125|2018-09-06|Eddie Huang|CH|
+126|2018-10-04|Chrissy Teigen|ME|
+127|2018-10-11|Jack Black;Kyle Gass|MU|
+128|2018-10-18|Anderson .Paak|MU|
+129|2018-10-25|Adam Carolla|CO|
+130|2018-11-01|Lil Yachty|MU|
+131|2018-11-08|E-40|MU|
+132|2018-11-15|Lilly Singh|CR|
+133|2018-11-22|Blake Griffin|AT|
+134|2018-11-29|Bill Burr|CO|
+135|2018-12-06|Pete Holmes|CO|
+136|2018-12-13|Vanessa Hudgens|AC|
+137|2018-12-20|Weird Al Yankovic|MU|
+138|2019-01-24|Gordon Ramsay|CH|
+139|2019-01-31|Abbi Jacobson;Ilana Glazer|CO|
+140|2019-02-07|Seth Meyers|ME|
+141|2019-02-14|Ken Jeong|CO|
+142|2019-02-21|Desus Nice;The Kid Mero|ME|
+143|2019-02-28|Offset|MU|
+144|2019-03-07|Billie Eilish|MU|
+145|2019-03-14|Shaquille O'Neal|AT|
+146|2019-03-21|Theo Von|CO|
+147|2019-03-28|Jimmy Butler|AT|
+148|2019-04-04|Chelsea Handler|CO|
+149|2019-04-11|Scarlett Johansson|AC|
+150|2019-05-30|Joe Jonas;Kevin Jonas;Nick Jonas|MU|
+151|2019-06-06|Halle Berry|AC|
+152|2019-06-13|Trevor Noah|CO|
+153|2019-06-20|Aubrey Plaza|AC|
+154|2019-06-27|ScHoolboy Q|MU|
+155|2019-07-04|Adam Devine|CO|
+156|2019-07-11|Kumail Nanjiani|CO|
+157|2019-07-18|Binging with Babish|CR|
+158|2019-07-25|Juice WRLD|MU|
+159|2019-08-01|Idris Elba|AC|
+160|2019-08-08|Kristen Bell|AC|
+161|2019-08-15|Stone Cold Steve Austin|WM|
+162|2019-09-05|Jay Pharoah|CO|B
+163|2019-09-19|Shia LaBeouf|AC|
+164|2019-09-26|Ashton Kutcher|AC|
+165|2019-10-03|Noel Gallagher|MU|
+166|2019-10-10|Liza Koshy|CR|
+167|2019-10-17|Paul Rudd|AC|
+168|2019-10-24|Maisie Williams|AC|
+169|2019-10-31|Nick Offerman|AC|
+170|2019-11-07|DaBaby|MU|
+171|2019-11-14|Kristen Stewart|AC|
+172|2019-11-21|Chance the Rapper|MU|
+173|2019-11-28|Brad Leone|CH|
+174|2019-12-05|John Boyega|AC|
+175|2020-02-06|Margot Robbie|AC|
+176|2020-02-13|Zoë Kravitz|AC|
+177|2020-02-20|Will Ferrell|CO|
+178|2020-02-27|Halsey|MU|
+179|2020-03-05|Pete Davidson|CO|
+180|2020-03-12|David Dobrik|CR|
+181|2020-03-19|Big Sean|MU|
+182|2020-04-02|Zac Efron|AC|
+183|2020-04-09|Justin Timberlake|MU|
+184|2020-06-25|Tom Segura|CO|
+185|2020-07-02|Brie Larson|AC|
+186|2020-07-09|Eric André|CO|
+187|2020-07-16|Dan Levy|AC|
+188|2020-07-23|Dua Lipa|MU|
+189|2020-07-30|T-Pain|MU|
+190|2020-08-06|Adam Richman|CH|
+191|2020-08-13|Action Bronson|MU|
+192|2020-08-20|Drew Barrymore|AC|
+193|2020-08-27|Joseph Gordon-Levitt|AC|
+194|2020-10-01|Jessica Alba|AC|
+195|2020-10-08|Ronda Rousey|WM|
+196|2020-10-15|Naomi Campbell|OT|
+197|2020-10-22|Matthew McConaughey|AC|
+198|2020-10-22|Sam Smith|MU|
+199|2020-11-05|Saweetie|MU|
+200|2020-11-12|Thundercat|MU|
+201|2020-11-19|The Undertaker|WM|
+202|2020-11-26|Lil Nas X|MU|
+203|2020-12-03|Daniel Radcliffe|AC|
+204|2020-12-10|Holiday Special (various)|OT|H
+205|2021-01-28|Priyanka Chopra Jonas|AC|
+206|2021-02-04|Dustin Poirier|WM|
+207|2021-02-11|Kevin James|AC|
+208|2021-02-18|Awkwafina|AC|
+209|2021-02-25|Kenan Thompson|CO|
+210|2021-03-04|Anthony Mackie|AC|
+211|2021-03-11|Paris Hilton|OT|
+212|2021-03-18|Jennifer Garner|AC|
+213|2021-03-25|J Balvin|MU|
+214|2021-04-01|Jeffrey Dean Morgan|AC|
+215|2021-04-08|Russell Brand;Brett Baker|CO|
+216|2021-04-15|Steve-O|CO|
+217|2021-05-27|Jack Harlow|MU|
+218|2021-06-03|Kamaru Usman|WM|
+219|2021-06-10|Quavo|MU|
+220|2021-06-17|Elizabeth Olsen|AC|
+221|2021-06-24|Olivia Rodrigo|MU|
+222|2021-07-01|Malcolm Gladwell|OT|
+223|2021-07-08|Ed Sheeran|MU|
+224|2021-07-15|David Harbour|AC|
+225|2021-07-22|Michael Che|CO|
+226|2021-07-29|Lorde|MU|
+227|2021-08-05|Matt Damon|AC|
+228|2021-08-12|Elijah Wood|AC|
+229|2021-09-23|Jimmy Kimmel|ME|
+230|2021-09-30|Derrick Lewis|WM|
+231|2021-10-07|Jon Bernthal|AC|
+232|2021-10-14|Megan Thee Stallion|MU|
+233|2021-10-21|CL|MU|
+234|2021-10-28|Mila Kunis|AC|
+235|2021-11-04|Salma Hayek|AC|
+236|2021-11-11|Jeremy Renner|AC|
+237|2021-11-18|David Chang|CH|
+238|2021-11-20|Brad Underwood|AT|
+239|2021-11-25|Rob Lowe|AC|
+240|2021-12-02|Simu Liu|AC|
+241|2021-12-09|Tom Holland|AC|
+242|2021-12-23|Gordon Ramsay|CH|H
+243|2022-01-20|Seth Rogen|AC|
+244|2022-01-27|Tracee Ellis Ross|AC|
+245|2022-02-03|Ed Helms|AC|
+246|2022-02-10|Sebastian Stan|AC|
+247|2022-02-17|Andrew Zimmern|CH|
+248|2022-02-24|Dave Grohl|MU|
+249|2022-03-03|Colin Farrell|AC|
+250|2022-03-10|Courteney Cox|AC|
+251|2022-03-17|Jacob Elordi|AC|
+252|2022-03-24|Pusha T|MU|
+253|2022-03-31|Leslie Mann|AC|
+254|2022-04-07|Josh Brolin|AC|
+255|2022-05-26|Post Malone|MU|
+256|2022-06-02|Millie Bobby Brown|AC|
+257|2022-06-09|Queen Latifah|MU|
+258|2022-06-16|Kevin Bacon|AC|
+259|2022-06-23|Khloé Kardashian|OT|
+260|2022-06-30|Andrew Callaghan|CR|
+261|2022-07-07|Tessa Thompson|AC|
+262|2022-07-14|Daniel Kaluuya|AC|
+263|2022-07-21|Bear Grylls|OT|
+264|2022-07-28|Mark Rober|CR|
+265|2022-08-04|Lizzo|MU|
+266|2022-08-11|Neil Patrick Harris|AC|
+267|2022-09-29|David Blaine|OT|
+268|2022-10-06|Kid Cudi|MU|
+269|2022-10-13|Viola Davis|AC|
+270|2022-10-20|Cole Bennett|OT|
+271|2022-10-27|Cate Blanchett|AC|
+272|2022-11-03|Emma Chamberlain|CR|
+273|2022-11-10|James Corden|ME|
+274|2022-11-17|Ramy Youssef|CO|
+275|2022-11-24|Israel Adesanya|WM|
+276|2022-12-01|Zoe Saldaña|AC|
+277|2022-12-08|Kate Hudson|AC|
+278|2022-12-15|Paul Dano|AC|
+279|2023-01-26|Anna Kendrick|AC|
+280|2023-02-02|Bryan Cranston|AC|
+281|2023-02-09|Lenny Kravitz|MU|
+282|2023-02-16|Austin Butler|AC|
+283|2023-02-24|LL Cool J|MU|
+284|2023-03-02|Jenna Ortega|AC|
+285|2023-03-09|Pedro Pascal|AC|
+286|2023-03-16|Niall Horan|MU|
+287|2023-03-23|Bob Odenkirk|AC|
+288|2023-03-30|Florence Pugh|AC|
+289|2023-04-06|Kieran Culkin|AC|
+290|2023-04-13|Jake Gyllenhaal|AC|
+291|2023-05-25|Jason Sudeikis|AC|
+292|2023-06-01|Julia Louis-Dreyfus|AC|
+293|2023-06-08|Rosalía|MU|
+294|2023-06-15|Melissa McCarthy|AC|
+295|2023-06-22|Jennifer Lawrence|AC|
+296|2023-06-29|John Mulaney|CO|
+297|2023-07-06|Lewis Capaldi|MU|
+298|2023-07-13|Harry Kane|AT|
+299|2023-07-20|John Stamos|AC|
+300|2023-07-27|Stephen Curry|AT|
+301|2023-08-03|Anitta|MU|
+302|2023-08-10|Gal Gadot|AC|
+303|2023-09-21|Justin Timberlake;JC Chasez;Chris Kirkpatrick;Lance Bass;Joey Fatone|MU|
+304|2023-09-28|Cardi B|MU|
+305|2023-10-05|Bobby Flay|CH|
+306|2023-10-12|Doja Cat|MU|
+307|2023-10-19|Mick Foley|WM|
+308|2023-10-26|Flea|MU|
+309|2023-11-02|Amelia Dimoldenberg|ME|
+310|2023-11-08|Louis Theroux|ME|
+311|2023-11-16|Carmelo Anthony|AT|
+312|2023-11-23|Sebastian Maniscalco|CO|
+313|2023-11-30|Sterling K. Brown|AC|
+314|2023-12-07|Mark Ruffalo|AC|
+315|2024-01-25|Sydney Sweeney|AC|
+316|2024-02-01|John Oliver|ME|
+317|2024-02-08|Barry Keoghan|AC|
+318|2024-02-15|Lil Dicky|MU|
+319|2024-02-22|Quinta Brunson|AC|
+320|2024-02-29|Finn Wolfhard|AC|
+321|2024-03-07|Jamie Dornan|AC|
+322|2024-03-14|Zayn Malik|MU|
+323|2024-03-21|Gwyneth Paltrow|AC|
+324|2024-03-28|Ice Spice|MU|
+325|2024-04-04|Shakira|MU|
+326|2024-04-11|Conan O'Brien|ME|
+327|2024-04-18|Ludacris|MU|B
+328|2024-05-23|Chris Hemsworth|AC|
+329|2024-05-30|Lewis Hamilton|AT|
+330|2024-06-06|Will Smith|AC|
+331|2024-06-13|Shane Gillis|CO|
+332|2024-06-20|Heidi Klum|ME|
+333|2024-06-27|Lupita Nyong'o|AC|
+334|2024-07-04|Serena Williams|AT|
+335|2024-07-11|Sabrina Carpenter|MU|
+336|2024-07-18|Childish Gambino|MU|
+337|2024-07-25|Ryan Reynolds;Hugh Jackman|AC|
+338|2024-08-01|Vince Vaughn|AC|
+339|2024-08-08|Ariana Grande|MU|
+340|2024-08-23|Donald Duck|OT|BC
+341|2024-09-19|Zlatan Ibrahimović|AT|
+342|2024-09-26|SZA|MU|
+343|2024-10-03|Jaylen Brown|AT|
+344|2024-10-10|Pharrell Williams|MU|
+345|2024-10-17|Peter Dinklage|AC|
+346|2024-10-21|Peter Griffin|OT|BC
+347|2024-10-24|Ali Wong|CO|
+348|2024-10-31|Jimmy Fallon|ME|
+349|2024-11-07|Rosé|MU|
+350|2024-11-14|Paul Mescal|AC|
+351|2024-11-21|Bowen Yang|CO|
+352|2024-11-25|T-Pain|MU|B
+353|2024-11-28|Demi Moore|AC|
+354|2024-12-05|Ben Stiller|AC|
+355|2025-01-15|Lil Yachty|MU|B
+356|2025-01-23|Bad Bunny|MU|
+357|2025-01-30|Stavros Halkias|CO|
+358|2025-02-06|Questlove|MU|
+359|2025-02-13|Lady Gaga|MU|
+360|2025-02-20|Rob McElhenney|AC|
+361|2025-02-27|Lisa|MU|
+362|2025-03-06|Bill Murray|AC|
+363|2025-03-13|Kevin Hart|CO|
+364|2025-03-20|Benny Blanco;Selena Gomez|MU|
+365|2025-03-27|Eiza González|AC|
+366|2025-04-03|Saquon Barkley|AT|
+367|2025-04-10|Will Forte|CO|
+368|2025-05-22|Aaron Paul|AC|
+369|2025-05-29|Ana de Armas|AC|
+370|2025-06-05|Tim Dillon|CO|
+371|2025-06-12|Dakota Johnson|AC|
+372|2025-06-19|Jennie|MU|
+373|2025-06-26|Owen Wilson|AC|
+374|2025-07-03|Adam Levine|MU|
+375|2025-07-10|Kai Cenat|CR|
+376|2025-07-14|Maria Sharapova|AT|
+377|2025-07-17|Nicole Scherzinger|MU|
+378|2025-07-24|Sam Rockwell|AC|
+379|2025-07-31|Cody Rhodes|WM|
+380|2025-08-07|Macaulay Culkin|AC|
+381|2025-09-15|Keke Palmer|AC|
+382|2025-09-18|Jason Bateman|AC|
+383|2025-09-25|Kate McKinnon|CO|
+384|2025-10-02|Channing Tatum|AC|
+385|2025-10-09|Luka Dončić|AT|
+386|2025-10-16|Jeremy Allen White|AC|
+387|2025-10-23|Adam Brody|AC|
+388|2025-10-30|Rose Byrne|AC|
+389|2025-11-06|Woody Harrelson|AC|
+390|2025-11-13|Glen Powell|AC|
+391|2025-11-20|Winona Ryder|AC|
+392|2025-11-27|A'ja Wilson|AT|
+393|2025-12-04|Matthew McConaughey|AC|
+394|2026-01-22|Jason Segel|AC|
+395|2026-01-29|Will Arnett|AC|
+396|2026-02-05|MrBeast|CR|
+398|2026-02-12|Madison Beer|MU|
+399|2026-02-19|Daniel Radcliffe|AC|
+400|2026-02-26|Teyana Taylor|MU|
+401|2026-03-05|Charlie Puth|MU|
+402|2026-03-12|Colman Domingo|AC|
+403|2026-03-19|Luke Combs|MU|
+404|2026-03-27|Hilary Duff|AC|
+405|2026-04-02|Oscar Isaac|AC|
+406|2026-04-09|BTS|MU|
+407|2026-04-13|Rachel Brosnahan|AC|
+408|2026-05-18|Tim Howard|AT|
+409|2026-05-21|Colin Jost|CO|
+410|2026-05-28|Emily Blunt|AC|
+411|2026-06-04|Becky G|MU|
+412|2026-06-11|PinkPantheress|MU|
+413|2026-06-18|Jesse Eisenberg|AC|
+414|2026-06-25|David Duchovny|AC|
+415|2026-07-02|Penélope Cruz|AC|
+416|2026-07-09|Millie Bobby Brown|AC|
+417|2026-07-16|Marcello Hernandez|CO|
+418|2026-07-23|Tom Holland;Jon Bernthal|AC|
+419|2026-07-29|Jisoo|MU|
+420|2026-08-06|Callum Turner|AC|
+421|2026-08-24|Dave Franco|AC|
+422|2026-09-03|Caleb Williams|AT|
+423|2026-09-14|Rob Gronkowski|AT|
+424|2026-09-24|Willem Dafoe|AC|
+425|2026-10-01|Mikey Madison|AC|
+426|2026-10-08|Liv Morgan|WM|
+427|2026-10-15|Karl-Anthony Towns|AT|
+428|2026-10-22|Maya Hawke|AC|

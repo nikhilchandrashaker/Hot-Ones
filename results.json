@@ -1,0 +1,555 @@
+{
+  "n_numbered_episodes": 427,
+  "n_seasons": 31,
+  "n_human_episodes": 422,
+  "n_unique_guest_names": 414,
+  "n_repeat_guests": 38,
+  "repeat_guests": [
+    {
+      "guest": "Keke Palmer",
+      "appearances": 3
+    },
+    {
+      "guest": "T-Pain",
+      "appearances": 3
+    },
+    {
+      "guest": "Action Bronson",
+      "appearances": 2
+    },
+    {
+      "guest": "Adam Richman",
+      "appearances": 2
+    },
+    {
+      "guest": "Brett Baker",
+      "appearances": 2
+    },
+    {
+      "guest": "Bryan Cranston",
+      "appearances": 2
+    },
+    {
+      "guest": "Daniel Radcliffe",
+      "appearances": 2
+    },
+    {
+      "guest": "Eddie Huang",
+      "appearances": 2
+    },
+    {
+      "guest": "Emma Chamberlain",
+      "appearances": 2
+    },
+    {
+      "guest": "Eric Andr\u00e9",
+      "appearances": 2
+    },
+    {
+      "guest": "Gabriel Iglesias",
+      "appearances": 2
+    },
+    {
+      "guest": "Gordon Ramsay",
+      "appearances": 2
+    },
+    {
+      "guest": "Jay Pharoah",
+      "appearances": 2
+    },
+    {
+      "guest": "Joey Fatone",
+      "appearances": 2
+    },
+    {
+      "guest": "Joji",
+      "appearances": 2
+    },
+    {
+      "guest": "Jon Bernthal",
+      "appearances": 2
+    },
+    {
+      "guest": "Justin Timberlake",
+      "appearances": 2
+    },
+    {
+      "guest": "Ken Jeong",
+      "appearances": 2
+    },
+    {
+      "guest": "Kevin Hart",
+      "appearances": 2
+    },
+    {
+      "guest": "Kristen Bell",
+      "appearances": 2
+    },
+    {
+      "guest": "Lil Yachty",
+      "appearances": 2
+    },
+    {
+      "guest": "Marques Brownlee",
+      "appearances": 2
+    },
+    {
+      "guest": "Matthew McConaughey",
+      "appearances": 2
+    },
+    {
+      "guest": "Millie Bobby Brown",
+      "appearances": 2
+    },
+    {
+      "guest": "Pete Davidson",
+      "appearances": 2
+    },
+    {
+      "guest": "Post Malone",
+      "appearances": 2
+    },
+    {
+      "guest": "Priyanka Chopra Jonas",
+      "appearances": 2
+    },
+    {
+      "guest": "Rich Brian",
+      "appearances": 2
+    },
+    {
+      "guest": "Rob Gronkowski",
+      "appearances": 2
+    },
+    {
+      "guest": "Russell Brand",
+      "appearances": 2
+    },
+    {
+      "guest": "Ryan Reynolds",
+      "appearances": 2
+    },
+    {
+      "guest": "Selena Gomez",
+      "appearances": 2
+    },
+    {
+      "guest": "Seth Rogen",
+      "appearances": 2
+    },
+    {
+      "guest": "Steve-O",
+      "appearances": 2
+    },
+    {
+      "guest": "Tom Holland",
+      "appearances": 2
+    },
+    {
+      "guest": "Tom Segura",
+      "appearances": 2
+    },
+    {
+      "guest": "Tony Hawk",
+      "appearances": 2
+    },
+    {
+      "guest": "Will Ferrell",
+      "appearances": 2
+    }
+  ],
+  "first_date": "2015-03-12",
+  "last_date": "2026-10-22",
+  "multi_guest_episodes": 16,
+  "episodes_per_year": {
+    "2015": 10,
+    "2016": 38,
+    "2017": 48,
+    "2018": 41,
+    "2019": 37,
+    "2020": 30,
+    "2021": 38,
+    "2022": 36,
+    "2023": 36,
+    "2024": 40,
+    "2025": 39,
+    "2026": 34
+  },
+  "median_gap_days": 7.0,
+  "share_gaps_exactly_7_days": 0.8051643192488263,
+  "share_gaps_over_14_days": 0.09859154929577464,
+  "longest_gap_days": 77,
+  "post_2018_median_gap": 7.0,
+  "category_share_by_year": {
+    "2015": {
+      "Actor": 0.0,
+      "Athlete": 0.2,
+      "Comedian": 0.0,
+      "Music": 0.8,
+      "Other": 0.0
+    },
+    "2016": {
+      "Actor": 0.053,
+      "Athlete": 0.079,
+      "Comedian": 0.421,
+      "Music": 0.316,
+      "Other": 0.132
+    },
+    "2017": {
+      "Actor": 0.196,
+      "Athlete": 0.043,
+      "Comedian": 0.196,
+      "Music": 0.261,
+      "Other": 0.304
+    },
+    "2018": {
+      "Actor": 0.244,
+      "Athlete": 0.098,
+      "Comedian": 0.146,
+      "Music": 0.268,
+      "Other": 0.244
+    },
+    "2019": {
+      "Actor": 0.324,
+      "Athlete": 0.054,
+      "Comedian": 0.216,
+      "Music": 0.216,
+      "Other": 0.189
+    },
+    "2020": {
+      "Actor": 0.345,
+      "Athlete": 0.0,
+      "Comedian": 0.138,
+      "Music": 0.345,
+      "Other": 0.172
+    },
+    "2021": {
+      "Actor": 0.447,
+      "Athlete": 0.026,
+      "Comedian": 0.105,
+      "Music": 0.211,
+      "Other": 0.211
+    },
+    "2022": {
+      "Actor": 0.528,
+      "Athlete": 0.0,
+      "Comedian": 0.028,
+      "Music": 0.167,
+      "Other": 0.278
+    },
+    "2023": {
+      "Actor": 0.472,
+      "Athlete": 0.083,
+      "Comedian": 0.056,
+      "Music": 0.278,
+      "Other": 0.111
+    },
+    "2024": {
+      "Actor": 0.395,
+      "Athlete": 0.105,
+      "Comedian": 0.079,
+      "Music": 0.316,
+      "Other": 0.105
+    },
+    "2025": {
+      "Actor": 0.487,
+      "Athlete": 0.103,
+      "Comedian": 0.128,
+      "Music": 0.231,
+      "Other": 0.051
+    },
+    "2026": {
+      "Actor": 0.529,
+      "Athlete": 0.118,
+      "Comedian": 0.059,
+      "Music": 0.235,
+      "Other": 0.059
+    }
+  },
+  "category_counts_overall": {
+    "Actor": 148,
+    "Music": 114,
+    "Comedian": 60,
+    "Athlete": 29,
+    "Creator": 17,
+    "Chef/Food": 16,
+    "Media/Host": 16,
+    "Wrestling/MMA": 12,
+    "Other": 10
+  },
+  "era_test": {
+    "early_n": 135,
+    "recent_n": 147,
+    "chi2": 41.42,
+    "dof": 4,
+    "p": 2.2010436410881538e-08,
+    "cramers_v": 0.383,
+    "early_share": {
+      "Actor": 0.156,
+      "Music": 0.319,
+      "Comedian": 0.23,
+      "Athlete": 0.081,
+      "Other": 0.215
+    },
+    "recent_share": {
+      "Actor": 0.469,
+      "Music": 0.265,
+      "Comedian": 0.082,
+      "Athlete": 0.102,
+      "Other": 0.082
+    }
+  },
+  "category_year_trend_logit": {
+    "Actor": {
+      "odds_ratio_per_year": 1.218,
+      "ci95": [
+        1.153,
+        1.301
+      ]
+    },
+    "Music": {
+      "odds_ratio_per_year": 0.949,
+      "ci95": [
+        0.885,
+        1.022
+      ]
+    },
+    "Comedian": {
+      "odds_ratio_per_year": 0.835,
+      "ci95": [
+        0.751,
+        0.922
+      ]
+    },
+    "Athlete": {
+      "odds_ratio_per_year": 1.037,
+      "ci95": [
+        0.911,
+        1.18
+      ]
+    }
+  },
+  "n_full_lineup_seasons": 23,
+  "median_shu_by_wing": {
+    "1": 1800,
+    "2": 4000,
+    "3": 14000,
+    "4": 33000,
+    "5": 49000,
+    "6": 69000,
+    "7": 100000,
+    "8": 120000,
+    "9": 666000,
+    "10": 2000000
+  },
+  "step_ratio_by_wing": {
+    "1": {
+      "median_ratio": 2.33,
+      "n": 23
+    },
+    "2": {
+      "median_ratio": 3.33,
+      "n": 23
+    },
+    "3": {
+      "median_ratio": 2.57,
+      "n": 23
+    },
+    "4": {
+      "median_ratio": 1.39,
+      "n": 23
+    },
+    "5": {
+      "median_ratio": 1.48,
+      "n": 23
+    },
+    "6": {
+      "median_ratio": 1.47,
+      "n": 22
+    },
+    "7": {
+      "median_ratio": 1.2,
+      "n": 22
+    },
+    "8": {
+      "median_ratio": 5.41,
+      "n": 23
+    },
+    "9": {
+      "median_ratio": 3.39,
+      "n": 20
+    }
+  },
+  "ramp_slope_log10_per_wing_median": 0.262,
+  "ramp_slope_implied_multiplier_per_wing": 1.83,
+  "slope_vs_season_spearman": {
+    "rho": -0.811,
+    "p": 2.6449433360034414e-06
+  },
+  "mean_log10_wings2to7_vs_season_spearman": {
+    "rho": 0.902,
+    "p": 4.055548807322042e-09
+  },
+  "mean_log10_wings2to7_by_season": {
+    "1": 4.018,
+    "2": 4.142,
+    "3": 4.21,
+    "4": 4.072,
+    "5": 4.13,
+    "6": 4.376,
+    "7": 4.315,
+    "8": 4.344,
+    "9": 4.25,
+    "10": 4.458,
+    "11": 4.495,
+    "12": 4.478,
+    "13": 4.477,
+    "14": 4.487,
+    "15": 4.496,
+    "16": 4.525,
+    "17": 4.534,
+    "18": 4.519,
+    "19": 4.466,
+    "20": 4.491,
+    "21": 4.514,
+    "29": 4.677,
+    "30": 4.54
+  },
+  "seasons_with_nonmonotonic_published_shu": {
+    "1": 2
+  },
+  "da_bomb_wing8_shu_range_S2_onward": [
+    120000,
+    135600
+  ],
+  "wing8_to_wing1_ratio_median": 70.6,
+  "wing10_to_wing8_ratio_median": 16.7,
+  "wing9_to_wing8_ratio_median": 5.41,
+  "wing_anchor_series": {
+    "1": {
+      "1": 750,
+      "2": 1000,
+      "3": 1000,
+      "4": 1500,
+      "5": 450,
+      "6": 600,
+      "7": 1800,
+      "8": 1800,
+      "9": 1800,
+      "10": 1800,
+      "11": 1800,
+      "12": 1700,
+      "13": 1700,
+      "14": 1800,
+      "15": 1800,
+      "16": 1700,
+      "17": 1800,
+      "18": 1800,
+      "19": 1800,
+      "20": 1600,
+      "21": 1600,
+      "22": 1800,
+      "23": 1800,
+      "24": 1700,
+      "25": 1800,
+      "26": 1200,
+      "27": 1400,
+      "28": 1900,
+      "29": 1900,
+      "30": 2100
+    },
+    "8": {
+      "1": 60000,
+      "2": 120000,
+      "3": 120000,
+      "4": 120000,
+      "5": 120000,
+      "6": 120000,
+      "7": 120000,
+      "8": 120000,
+      "9": 120000,
+      "10": 120000,
+      "11": 120000,
+      "12": 130000,
+      "13": 120000,
+      "14": 120000,
+      "15": 120000,
+      "16": 120000,
+      "17": 120000,
+      "18": 120000,
+      "19": 120000,
+      "20": 135000,
+      "21": 135600,
+      "23": 135600,
+      "28": 135600,
+      "29": 135600,
+      "30": 135600
+    },
+    "10": {
+      "1": 357000,
+      "2": 550000,
+      "3": 550000,
+      "4": 2000000,
+      "5": 2000000,
+      "6": 2000000,
+      "7": 2000000,
+      "8": 2000000,
+      "9": 2000000,
+      "10": 2000000,
+      "11": 2000000,
+      "12": 2000000,
+      "13": 2500000,
+      "14": 2500000,
+      "15": 2500000,
+      "16": 2500000,
+      "17": 2500000,
+      "18": 2500000,
+      "19": 2500000,
+      "20": 2500000,
+      "23": 2693000,
+      "24": 2693000,
+      "27": 2693000
+    }
+  },
+  "documented_non_finishers": 18,
+  "documented_non_finisher_rate_lower_bound": 0.0427,
+  "documented_non_finisher_rate_wilson95_of_documented": [
+    0.0271,
+    0.0664
+  ],
+  "non_finishers_with_known_wing": 11,
+  "last_wing_counts": {
+    "3": 1,
+    "2": 1,
+    "8": 8,
+    "9": 1
+  },
+  "share_stopping_after_wing8": 0.727,
+  "binomial_test_wing8_vs_uniform": {
+    "k": 8,
+    "n": 11,
+    "null_p": 0.125,
+    "p_value": 6.911344826221466e-06
+  },
+  "non_finishers_by_category": {
+    "Music": 8,
+    "Comedian": 5,
+    "Chef/Food": 2,
+    "Actor": 1,
+    "Media/Host": 1,
+    "Athlete": 1
+  },
+  "non_finishers_by_era": {
+    "2015-2018": 12,
+    "2019-2022": 4,
+    "2023-2026": 2
+  },
+  "non_finisher_share_music_vs_music_in_catalogue": {
+    "among_non_finishers": 0.444,
+    "among_all_episodes": 0.27
+  },
+  "fisher_music_vs_rest": {
+    "odds_ratio": 2.25,
+    "p": 0.10451955636882475
+  }
+}

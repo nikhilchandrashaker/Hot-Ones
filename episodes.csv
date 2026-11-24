@@ -1,0 +1,428 @@
+episode,season,air_date,year,guests,n_guests,category,is_bonus,is_removed,is_holiday,is_character,episode_in_season
+1,1,2015-03-12,2015,Tony Yayo,1,Music,0,0,0,0,1
+2,1,2015-05-12,2015,Anthony Rizzo,1,Athlete,0,0,0,0,2
+3,1,2015-06-11,2015,Machine Gun Kelly,1,Music,0,0,0,0,3
+4,1,2015-06-23,2015,Gunplay,1,Music,0,0,0,0,4
+5,1,2015-08-11,2015,Ja Rule,1,Music,0,0,0,0,5
+6,1,2015-08-26,2015,B.o.B.,1,Music,0,0,0,0,6
+7,1,2015-10-07,2015,Prince Amukamara,1,Athlete,0,0,0,0,7
+8,1,2015-10-22,2015,DJ Khaled,1,Music,0,0,0,0,8
+9,2,2015-12-10,2015,Curren$y,1,Music,0,0,0,0,1
+10,2,2015-12-17,2015,Tinashe,1,Music,0,0,0,0,2
+11,2,2016-02-03,2016,Tommy Chong,1,Comedian,0,0,0,0,3
+12,2,2016-02-12,2016,T.J. Miller,1,Comedian,0,0,0,0,4
+13,2,2016-03-07,2016,Coolio,1,Music,0,0,0,0,5
+14,2,2016-04-07,2016,Joey Fatone,1,Music,0,0,0,0,6
+15,2,2016-04-13,2016,Michael Rapaport,1,Actor,0,0,0,0,7
+16,2,2016-04-28,2016,Keegan-Michael Key;Jordan Peele,2,Comedian,0,0,0,0,8
+17,2,2016-05-05,2016,Riff Raff,1,Music,0,0,0,0,9
+18,2,2016-05-31,2016,Eddie Huang,1,Chef/Food,0,0,0,0,10
+19,2,2016-06-09,2016,Chris D'Elia,1,Comedian,0,0,0,0,11
+20,2,2016-06-21,2016,Mike Epps,1,Comedian,0,0,0,0,12
+21,2,2016-06-23,2016,Jim Gaffigan,1,Comedian,0,0,0,0,13
+22,2,2016-06-30,2016,Carly Aquilino,1,Comedian,0,0,0,0,14
+23,2,2016-07-07,2016,Redman,1,Music,0,0,0,0,15
+24,2,2016-07-14,2016,Rob Gronkowski,1,Athlete,0,0,0,0,16
+25,2,2016-07-21,2016,Rob Corddry,1,Comedian,0,0,0,0,17
+26,2,2016-07-28,2016,Jeff Ross,1,Comedian,0,0,0,0,18
+27,2,2016-07-29,2016,David Cross,1,Comedian,0,0,0,0,19
+28,2,2016-08-04,2016,Eric André,1,Comedian,0,0,0,0,20
+29,2,2016-08-11,2016,Joe Budden,1,Music,0,0,0,0,21
+30,2,2016-08-18,2016,Matty Matheson,1,Chef/Food,0,0,0,0,22
+31,2,2016-08-25,2016,RZA;Paul Banks,2,Music,0,0,0,0,23
+32,2,2016-09-01,2016,Bert Kreischer,1,Comedian,0,0,0,0,24
+33,2,2016-09-08,2016,YG,1,Music,0,0,0,0,25
+34,2,2016-09-15,2016,Jay Pharoah,1,Comedian,0,0,0,0,26
+35,2,2016-09-22,2016,Harley Morenstein,1,Creator,0,0,0,0,27
+36,2,2016-09-29,2016,Travis Kelce,1,Athlete,0,0,0,0,28
+37,2,2016-10-06,2016,Hasan Minhaj,1,Comedian,0,0,0,0,29
+38,2,2016-10-11,2016,Kevin Hart,1,Comedian,0,0,0,0,30
+39,2,2016-10-20,2016,Martin Garrix,1,Music,0,0,0,0,31
+40,2,2016-10-27,2016,Bobby Lee,1,Comedian,0,0,0,0,32
+41,2,2016-11-05,2016,Tony Hawk,1,Athlete,0,0,0,0,33
+42,2,2016-11-10,2016,Action Bronson,1,Music,0,0,0,0,34
+43,2,2016-11-17,2016,T-Pain,1,Music,0,0,0,0,35
+44,2,2016-11-24,2016,Rachael Ray,1,Chef/Food,0,0,0,0,36
+45,2,2016-12-01,2016,Tom Colicchio,1,Chef/Food,0,0,0,0,37
+46,2,2016-12-08,2016,Post Malone,1,Music,0,0,0,0,38
+47,2,2016-12-15,2016,N.O.R.E.,1,Music,0,0,0,0,39
+48,2,2016-12-22,2016,James Franco;Bryan Cranston,2,Actor,0,0,0,0,40
+49,3,2017-01-19,2017,Padma Lakshmi,1,Chef/Food,0,0,0,0,1
+50,3,2017-01-26,2017,Joey Diaz,1,Comedian,0,0,0,0,2
+51,3,2017-02-02,2017,Danny Brown,1,Music,0,0,0,0,3
+52,3,2017-02-09,2017,Ricky Gervais,1,Comedian,0,0,0,0,4
+53,3,2017-02-16,2017,Charlie Day,1,Actor,0,0,0,0,5
+54,3,2017-02-23,2017,Mac DeMarco,1,Music,0,0,0,0,6
+55,3,2017-03-02,2017,Russell Brand,1,Comedian,0,0,0,0,7
+56,3,2017-03-09,2017,Charlie Sloth,1,Music,0,0,0,0,8
+57,3,2017-03-16,2017,Kyle Kinane,1,Comedian,0,0,0,0,9
+58,3,2017-03-23,2017,Dax Shepard,1,Actor,0,0,0,0,10
+59,3,2017-03-30,2017,Ethan Klein;Hila Klein,2,Creator,0,0,0,0,11
+60,3,2017-04-06,2017,Keke Palmer,1,Actor,0,0,0,0,12
+61,3,2017-04-13,2017,Charlamagne Tha God,1,Media/Host,0,0,0,0,13
+62,3,2017-04-20,2017,DJ Snake,1,Music,0,0,0,0,14
+63,3,2017-04-27,2017,Guy Fieri,1,Chef/Food,0,0,0,0,15
+64,3,2017-05-04,2017,Kevin Love,1,Athlete,0,0,0,0,16
+65,3,2017-05-11,2017,Neil deGrasse Tyson,1,Other,0,0,0,0,17
+66,3,2017-05-18,2017,Thomas Middleditch,1,Actor,0,0,0,0,18
+67,3,2017-05-25,2017,Andy Cohen,1,Media/Host,0,0,0,0,19
+68,3,2017-06-01,2017,Tom Arnold,1,Actor,0,0,0,0,20
+69,3,2017-06-08,2017,Coyote Peterson,1,Creator,0,0,0,0,21
+70,3,2017-06-15,2017,Nick Kroll,1,Comedian,0,0,0,0,22
+71,3,2017-06-22,2017,Brett Baker,1,Other,0,0,0,0,23
+72,3,2017-06-29,2017,Seth Rogen;Dominic Cooper,2,Actor,0,0,0,0,24
+73,4,2017-07-20,2017,Cara Delevingne,1,Actor,0,0,0,0,1
+74,4,2017-07-27,2017,Liam Payne,1,Music,0,0,0,0,2
+75,4,2017-08-03,2017,Steve-O,1,Comedian,0,0,0,0,3
+76,4,2017-08-10,2017,Vince Staples,1,Music,0,0,0,0,4
+77,4,2017-08-17,2017,Adam Richman,1,Chef/Food,0,0,0,0,5
+78,4,2017-08-24,2017,ASAP Ferg,1,Music,0,0,0,0,6
+79,4,2017-08-31,2017,Kevin Durant,1,Athlete,0,0,0,0,7
+80,4,2017-09-07,2017,Henry Rollins,1,Music,0,0,0,0,8
+81,4,2017-09-14,2017,Dillon Francis,1,Music,0,0,0,0,9
+82,4,2017-09-21,2017,Joji,1,Music,0,0,0,0,10
+83,4,2017-09-28,2017,Wanda Sykes,1,Comedian,0,0,0,0,11
+84,4,2017-10-05,2017,Terry Crews,1,Actor,0,0,0,0,12
+85,4,2017-10-12,2017,Gary Vaynerchuk,1,Other,0,0,0,0,13
+86,4,2017-10-19,2017,Artie Lange,1,Comedian,0,0,0,0,14
+87,4,2017-10-26,2017,Chris Jericho,1,Wrestling/MMA,0,0,0,0,15
+88,4,2017-11-02,2017,Gabrielle Union,1,Actor,0,0,0,0,16
+89,4,2017-11-09,2017,Wale,1,Music,0,0,0,0,17
+90,4,2017-11-16,2017,Bob Saget,1,Comedian,0,0,0,0,18
+91,4,2017-11-23,2017,Mario Batali,1,Chef/Food,0,1,0,0,19
+92,4,2017-11-30,2017,Alexa Chung,1,Media/Host,0,0,0,0,20
+93,4,2017-12-07,2017,Logic,1,Music,0,0,0,0,21
+94,4,2017-12-14,2017,Casey Neistat,1,Creator,0,0,0,0,22
+95,4,2017-12-21,2017,Holiday Special (various),1,Other,0,0,1,0,23
+96,4,2017-12-28,2017,Chili Klaus,1,Creator,0,0,0,0,24
+97,5,2018-01-18,2018,Taraji P. Henson,1,Actor,0,0,0,0,1
+98,5,2018-01-25,2018,Sasha Banks,1,Wrestling/MMA,0,0,0,0,2
+99,5,2018-02-01,2018,Von Miller,1,Athlete,0,0,0,0,3
+100,5,2018-02-08,2018,Rich Brian,1,Music,0,0,0,0,4
+101,5,2018-02-15,2018,Hannibal Buress,1,Comedian,0,0,0,0,5
+102,5,2018-02-22,2018,Michael B. Jordan,1,Actor,0,0,0,0,6
+103,5,2018-03-01,2018,Ty Burrell,1,Actor,0,0,0,0,7
+104,5,2018-03-08,2018,Charlize Theron,1,Actor,0,0,0,0,8
+105,5,2018-03-15,2018,Adam Rippon,1,Athlete,0,0,0,0,9
+106,5,2018-03-22,2018,Gabriel Iglesias,1,Comedian,0,0,0,0,10
+107,5,2018-03-29,2018,Shawn Mendes,1,Music,0,0,0,0,11
+108,5,2018-04-05,2018,Philip DeFranco,1,Creator,0,0,0,0,12
+109,5,2018-04-12,2018,Trick Daddy,1,Music,0,0,0,0,13
+110,5,2018-04-19,2018,Tyra Banks,1,Media/Host,0,0,0,0,14
+111,5,2018-04-26,2018,Alton Brown,1,Chef/Food,0,0,0,0,15
+112,5,2018-05-03,2018,John Mayer,1,Music,0,0,0,0,16
+113,6,2018-06-07,2018,Johnny Knoxville,1,Actor,0,0,0,0,1
+114,6,2018-06-14,2018,Natalie Portman,1,Actor,0,0,0,0,2
+115,6,2018-06-21,2018,Marques Brownlee,1,Creator,0,0,0,0,3
+116,6,2018-06-28,2018,Joel Embiid,1,Athlete,0,0,0,0,4
+117,6,2018-07-12,2018,Tom Segura,1,Comedian,0,0,0,0,5
+118,6,2018-07-19,2018,Joji;Rich Brian,2,Music,0,0,0,0,6
+119,6,2018-07-26,2018,Wiz Khalifa,1,Music,0,0,0,0,7
+120,6,2018-08-02,2018,Al Roker,1,Media/Host,0,0,0,0,8
+121,6,2018-08-09,2018,Michael Cera,1,Actor,0,0,0,0,9
+122,6,2018-08-16,2018,Issa Rae,1,Actor,0,0,0,0,10
+123,6,2018-08-23,2018,Rhett McLaughlin;Link Neal,2,Creator,0,0,0,0,11
+124,6,2018-08-30,2018,Jeff Goldblum,1,Actor,0,0,0,0,12
+125,6,2018-09-06,2018,Eddie Huang,1,Chef/Food,0,0,0,0,13
+126,7,2018-10-04,2018,Chrissy Teigen,1,Media/Host,0,0,0,0,1
+127,7,2018-10-11,2018,Jack Black;Kyle Gass,2,Music,0,0,0,0,2
+128,7,2018-10-18,2018,Anderson .Paak,1,Music,0,0,0,0,3
+129,7,2018-10-25,2018,Adam Carolla,1,Comedian,0,0,0,0,4
+130,7,2018-11-01,2018,Lil Yachty,1,Music,0,0,0,0,5
+131,7,2018-11-08,2018,E-40,1,Music,0,0,0,0,6
+132,7,2018-11-15,2018,Lilly Singh,1,Creator,0,0,0,0,7
+133,7,2018-11-22,2018,Blake Griffin,1,Athlete,0,0,0,0,8
+134,7,2018-11-29,2018,Bill Burr,1,Comedian,0,0,0,0,9
+135,7,2018-12-06,2018,Pete Holmes,1,Comedian,0,0,0,0,10
+136,7,2018-12-13,2018,Vanessa Hudgens,1,Actor,0,0,0,0,11
+137,7,2018-12-20,2018,Weird Al Yankovic,1,Music,0,0,0,0,12
+138,8,2019-01-24,2019,Gordon Ramsay,1,Chef/Food,0,0,0,0,1
+139,8,2019-01-31,2019,Abbi Jacobson;Ilana Glazer,2,Comedian,0,0,0,0,2
+140,8,2019-02-07,2019,Seth Meyers,1,Media/Host,0,0,0,0,3
+141,8,2019-02-14,2019,Ken Jeong,1,Comedian,0,0,0,0,4
+142,8,2019-02-21,2019,Desus Nice;The Kid Mero,2,Media/Host,0,0,0,0,5
+143,8,2019-02-28,2019,Offset,1,Music,0,0,0,0,6
+144,8,2019-03-07,2019,Billie Eilish,1,Music,0,0,0,0,7
+145,8,2019-03-14,2019,Shaquille O'Neal,1,Athlete,0,0,0,0,8
+146,8,2019-03-21,2019,Theo Von,1,Comedian,0,0,0,0,9
+147,8,2019-03-28,2019,Jimmy Butler,1,Athlete,0,0,0,0,10
+148,8,2019-04-04,2019,Chelsea Handler,1,Comedian,0,0,0,0,11
+149,8,2019-04-11,2019,Scarlett Johansson,1,Actor,0,0,0,0,12
+150,9,2019-05-30,2019,Joe Jonas;Kevin Jonas;Nick Jonas,3,Music,0,0,0,0,1
+151,9,2019-06-06,2019,Halle Berry,1,Actor,0,0,0,0,2
+152,9,2019-06-13,2019,Trevor Noah,1,Comedian,0,0,0,0,3
+153,9,2019-06-20,2019,Aubrey Plaza,1,Actor,0,0,0,0,4
+154,9,2019-06-27,2019,ScHoolboy Q,1,Music,0,0,0,0,5
+155,9,2019-07-04,2019,Adam Devine,1,Comedian,0,0,0,0,6
+156,9,2019-07-11,2019,Kumail Nanjiani,1,Comedian,0,0,0,0,7
+157,9,2019-07-18,2019,Binging with Babish,1,Creator,0,0,0,0,8
+158,9,2019-07-25,2019,Juice WRLD,1,Music,0,0,0,0,9
+159,9,2019-08-01,2019,Idris Elba,1,Actor,0,0,0,0,10
+160,9,2019-08-08,2019,Kristen Bell,1,Actor,0,0,0,0,11
+161,9,2019-08-15,2019,Stone Cold Steve Austin,1,Wrestling/MMA,0,0,0,0,12
+162,9,2019-09-05,2019,Jay Pharoah,1,Comedian,1,0,0,0,13
+163,10,2019-09-19,2019,Shia LaBeouf,1,Actor,0,0,0,0,1
+164,10,2019-09-26,2019,Ashton Kutcher,1,Actor,0,0,0,0,2
+165,10,2019-10-03,2019,Noel Gallagher,1,Music,0,0,0,0,3
+166,10,2019-10-10,2019,Liza Koshy,1,Creator,0,0,0,0,4
+167,10,2019-10-17,2019,Paul Rudd,1,Actor,0,0,0,0,5
+168,10,2019-10-24,2019,Maisie Williams,1,Actor,0,0,0,0,6
+169,10,2019-10-31,2019,Nick Offerman,1,Actor,0,0,0,0,7
+170,10,2019-11-07,2019,DaBaby,1,Music,0,0,0,0,8
+171,10,2019-11-14,2019,Kristen Stewart,1,Actor,0,0,0,0,9
+172,10,2019-11-21,2019,Chance the Rapper,1,Music,0,0,0,0,10
+173,10,2019-11-28,2019,Brad Leone,1,Chef/Food,0,0,0,0,11
+174,10,2019-12-05,2019,John Boyega,1,Actor,0,0,0,0,12
+175,11,2020-02-06,2020,Margot Robbie,1,Actor,0,0,0,0,1
+176,11,2020-02-13,2020,Zoë Kravitz,1,Actor,0,0,0,0,2
+177,11,2020-02-20,2020,Will Ferrell,1,Comedian,0,0,0,0,3
+178,11,2020-02-27,2020,Halsey,1,Music,0,0,0,0,4
+179,11,2020-03-05,2020,Pete Davidson,1,Comedian,0,0,0,0,5
+180,11,2020-03-12,2020,David Dobrik,1,Creator,0,0,0,0,6
+181,11,2020-03-19,2020,Big Sean,1,Music,0,0,0,0,7
+182,11,2020-04-02,2020,Zac Efron,1,Actor,0,0,0,0,8
+183,11,2020-04-09,2020,Justin Timberlake,1,Music,0,0,0,0,9
+184,12,2020-06-25,2020,Tom Segura,1,Comedian,0,0,0,0,1
+185,12,2020-07-02,2020,Brie Larson,1,Actor,0,0,0,0,2
+186,12,2020-07-09,2020,Eric André,1,Comedian,0,0,0,0,3
+187,12,2020-07-16,2020,Dan Levy,1,Actor,0,0,0,0,4
+188,12,2020-07-23,2020,Dua Lipa,1,Music,0,0,0,0,5
+189,12,2020-07-30,2020,T-Pain,1,Music,0,0,0,0,6
+190,12,2020-08-06,2020,Adam Richman,1,Chef/Food,0,0,0,0,7
+191,12,2020-08-13,2020,Action Bronson,1,Music,0,0,0,0,8
+192,12,2020-08-20,2020,Drew Barrymore,1,Actor,0,0,0,0,9
+193,12,2020-08-27,2020,Joseph Gordon-Levitt,1,Actor,0,0,0,0,10
+194,13,2020-10-01,2020,Jessica Alba,1,Actor,0,0,0,0,1
+195,13,2020-10-08,2020,Ronda Rousey,1,Wrestling/MMA,0,0,0,0,2
+196,13,2020-10-15,2020,Naomi Campbell,1,Other,0,0,0,0,3
+197,13,2020-10-22,2020,Matthew McConaughey,1,Actor,0,0,0,0,4
+198,13,2020-10-22,2020,Sam Smith,1,Music,0,0,0,0,5
+199,13,2020-11-05,2020,Saweetie,1,Music,0,0,0,0,6
+200,13,2020-11-12,2020,Thundercat,1,Music,0,0,0,0,7
+201,13,2020-11-19,2020,The Undertaker,1,Wrestling/MMA,0,0,0,0,8
+202,13,2020-11-26,2020,Lil Nas X,1,Music,0,0,0,0,9
+203,13,2020-12-03,2020,Daniel Radcliffe,1,Actor,0,0,0,0,10
+204,13,2020-12-10,2020,Holiday Special (various),1,Other,0,0,1,0,11
+205,14,2021-01-28,2021,Priyanka Chopra Jonas,1,Actor,0,0,0,0,1
+206,14,2021-02-04,2021,Dustin Poirier,1,Wrestling/MMA,0,0,0,0,2
+207,14,2021-02-11,2021,Kevin James,1,Actor,0,0,0,0,3
+208,14,2021-02-18,2021,Awkwafina,1,Actor,0,0,0,0,4
+209,14,2021-02-25,2021,Kenan Thompson,1,Comedian,0,0,0,0,5
+210,14,2021-03-04,2021,Anthony Mackie,1,Actor,0,0,0,0,6
+211,14,2021-03-11,2021,Paris Hilton,1,Other,0,0,0,0,7
+212,14,2021-03-18,2021,Jennifer Garner,1,Actor,0,0,0,0,8
+213,14,2021-03-25,2021,J Balvin,1,Music,0,0,0,0,9
+214,14,2021-04-01,2021,Jeffrey Dean Morgan,1,Actor,0,0,0,0,10
+215,14,2021-04-08,2021,Russell Brand;Brett Baker,2,Comedian,0,0,0,0,11
+216,14,2021-04-15,2021,Steve-O,1,Comedian,0,0,0,0,12
+217,15,2021-05-27,2021,Jack Harlow,1,Music,0,0,0,0,1
+218,15,2021-06-03,2021,Kamaru Usman,1,Wrestling/MMA,0,0,0,0,2
+219,15,2021-06-10,2021,Quavo,1,Music,0,0,0,0,3
+220,15,2021-06-17,2021,Elizabeth Olsen,1,Actor,0,0,0,0,4
+221,15,2021-06-24,2021,Olivia Rodrigo,1,Music,0,0,0,0,5
+222,15,2021-07-01,2021,Malcolm Gladwell,1,Other,0,0,0,0,6
+223,15,2021-07-08,2021,Ed Sheeran,1,Music,0,0,0,0,7
+224,15,2021-07-15,2021,David Harbour,1,Actor,0,0,0,0,8
+225,15,2021-07-22,2021,Michael Che,1,Comedian,0,0,0,0,9
+226,15,2021-07-29,2021,Lorde,1,Music,0,0,0,0,10
+227,15,2021-08-05,2021,Matt Damon,1,Actor,0,0,0,0,11
+228,15,2021-08-12,2021,Elijah Wood,1,Actor,0,0,0,0,12
+229,16,2021-09-23,2021,Jimmy Kimmel,1,Media/Host,0,0,0,0,1
+230,16,2021-09-30,2021,Derrick Lewis,1,Wrestling/MMA,0,0,0,0,2
+231,16,2021-10-07,2021,Jon Bernthal,1,Actor,0,0,0,0,3
+232,16,2021-10-14,2021,Megan Thee Stallion,1,Music,0,0,0,0,4
+233,16,2021-10-21,2021,CL,1,Music,0,0,0,0,5
+234,16,2021-10-28,2021,Mila Kunis,1,Actor,0,0,0,0,6
+235,16,2021-11-04,2021,Salma Hayek,1,Actor,0,0,0,0,7
+236,16,2021-11-11,2021,Jeremy Renner,1,Actor,0,0,0,0,8
+237,16,2021-11-18,2021,David Chang,1,Chef/Food,0,0,0,0,9
+238,16,2021-11-20,2021,Brad Underwood,1,Athlete,0,0,0,0,10
+239,16,2021-11-25,2021,Rob Lowe,1,Actor,0,0,0,0,11
+240,16,2021-12-02,2021,Simu Liu,1,Actor,0,0,0,0,12
+241,16,2021-12-09,2021,Tom Holland,1,Actor,0,0,0,0,13
+242,16,2021-12-23,2021,Gordon Ramsay,1,Chef/Food,0,0,1,0,14
+243,17,2022-01-20,2022,Seth Rogen,1,Actor,0,0,0,0,1
+244,17,2022-01-27,2022,Tracee Ellis Ross,1,Actor,0,0,0,0,2
+245,17,2022-02-03,2022,Ed Helms,1,Actor,0,0,0,0,3
+246,17,2022-02-10,2022,Sebastian Stan,1,Actor,0,0,0,0,4
+247,17,2022-02-17,2022,Andrew Zimmern,1,Chef/Food,0,0,0,0,5
+248,17,2022-02-24,2022,Dave Grohl,1,Music,0,0,0,0,6
+249,17,2022-03-03,2022,Colin Farrell,1,Actor,0,0,0,0,7
+250,17,2022-03-10,2022,Courteney Cox,1,Actor,0,0,0,0,8
+251,17,2022-03-17,2022,Jacob Elordi,1,Actor,0,0,0,0,9
+252,17,2022-03-24,2022,Pusha T,1,Music,0,0,0,0,10
+253,17,2022-03-31,2022,Leslie Mann,1,Actor,0,0,0,0,11
+254,17,2022-04-07,2022,Josh Brolin,1,Actor,0,0,0,0,12
+255,18,2022-05-26,2022,Post Malone,1,Music,0,0,0,0,1
+256,18,2022-06-02,2022,Millie Bobby Brown,1,Actor,0,0,0,0,2
+257,18,2022-06-09,2022,Queen Latifah,1,Music,0,0,0,0,3
+258,18,2022-06-16,2022,Kevin Bacon,1,Actor,0,0,0,0,4
+259,18,2022-06-23,2022,Khloé Kardashian,1,Other,0,0,0,0,5
+260,18,2022-06-30,2022,Andrew Callaghan,1,Creator,0,0,0,0,6
+261,18,2022-07-07,2022,Tessa Thompson,1,Actor,0,0,0,0,7
+262,18,2022-07-14,2022,Daniel Kaluuya,1,Actor,0,0,0,0,8
+263,18,2022-07-21,2022,Bear Grylls,1,Other,0,0,0,0,9
+264,18,2022-07-28,2022,Mark Rober,1,Creator,0,0,0,0,10
+265,18,2022-08-04,2022,Lizzo,1,Music,0,0,0,0,11
+266,18,2022-08-11,2022,Neil Patrick Harris,1,Actor,0,0,0,0,12
+267,19,2022-09-29,2022,David Blaine,1,Other,0,0,0,0,1
+268,19,2022-10-06,2022,Kid Cudi,1,Music,0,0,0,0,2
+269,19,2022-10-13,2022,Viola Davis,1,Actor,0,0,0,0,3
+270,19,2022-10-20,2022,Cole Bennett,1,Other,0,0,0,0,4
+271,19,2022-10-27,2022,Cate Blanchett,1,Actor,0,0,0,0,5
+272,19,2022-11-03,2022,Emma Chamberlain,1,Creator,0,0,0,0,6
+273,19,2022-11-10,2022,James Corden,1,Media/Host,0,0,0,0,7
+274,19,2022-11-17,2022,Ramy Youssef,1,Comedian,0,0,0,0,8
+275,19,2022-11-24,2022,Israel Adesanya,1,Wrestling/MMA,0,0,0,0,9
+276,19,2022-12-01,2022,Zoe Saldaña,1,Actor,0,0,0,0,10
+277,19,2022-12-08,2022,Kate Hudson,1,Actor,0,0,0,0,11
+278,19,2022-12-15,2022,Paul Dano,1,Actor,0,0,0,0,12
+279,20,2023-01-26,2023,Anna Kendrick,1,Actor,0,0,0,0,1
+280,20,2023-02-02,2023,Bryan Cranston,1,Actor,0,0,0,0,2
+281,20,2023-02-09,2023,Lenny Kravitz,1,Music,0,0,0,0,3
+282,20,2023-02-16,2023,Austin Butler,1,Actor,0,0,0,0,4
+283,20,2023-02-24,2023,LL Cool J,1,Music,0,0,0,0,5
+284,20,2023-03-02,2023,Jenna Ortega,1,Actor,0,0,0,0,6
+285,20,2023-03-09,2023,Pedro Pascal,1,Actor,0,0,0,0,7
+286,20,2023-03-16,2023,Niall Horan,1,Music,0,0,0,0,8
+287,20,2023-03-23,2023,Bob Odenkirk,1,Actor,0,0,0,0,9
+288,20,2023-03-30,2023,Florence Pugh,1,Actor,0,0,0,0,10
+289,20,2023-04-06,2023,Kieran Culkin,1,Actor,0,0,0,0,11
+290,20,2023-04-13,2023,Jake Gyllenhaal,1,Actor,0,0,0,0,12
+291,21,2023-05-25,2023,Jason Sudeikis,1,Actor,0,0,0,0,1
+292,21,2023-06-01,2023,Julia Louis-Dreyfus,1,Actor,0,0,0,0,2
+293,21,2023-06-08,2023,Rosalía,1,Music,0,0,0,0,3
+294,21,2023-06-15,2023,Melissa McCarthy,1,Actor,0,0,0,0,4
+295,21,2023-06-22,2023,Jennifer Lawrence,1,Actor,0,0,0,0,5
+296,21,2023-06-29,2023,John Mulaney,1,Comedian,0,0,0,0,6
+297,21,2023-07-06,2023,Lewis Capaldi,1,Music,0,0,0,0,7
+298,21,2023-07-13,2023,Harry Kane,1,Athlete,0,0,0,0,8
+299,21,2023-07-20,2023,John Stamos,1,Actor,0,0,0,0,9
+300,21,2023-07-27,2023,Stephen Curry,1,Athlete,0,0,0,0,10
+301,21,2023-08-03,2023,Anitta,1,Music,0,0,0,0,11
+302,21,2023-08-10,2023,Gal Gadot,1,Actor,0,0,0,0,12
+303,22,2023-09-21,2023,Justin Timberlake;JC Chasez;Chris Kirkpatrick;Lance Bass;Joey Fatone,5,Music,0,0,0,0,1
+304,22,2023-09-28,2023,Cardi B,1,Music,0,0,0,0,2
+305,22,2023-10-05,2023,Bobby Flay,1,Chef/Food,0,0,0,0,3
+306,22,2023-10-12,2023,Doja Cat,1,Music,0,0,0,0,4
+307,22,2023-10-19,2023,Mick Foley,1,Wrestling/MMA,0,0,0,0,5
+308,22,2023-10-26,2023,Flea,1,Music,0,0,0,0,6
+309,22,2023-11-02,2023,Amelia Dimoldenberg,1,Media/Host,0,0,0,0,7
+310,22,2023-11-08,2023,Louis Theroux,1,Media/Host,0,0,0,0,8
+311,22,2023-11-16,2023,Carmelo Anthony,1,Athlete,0,0,0,0,9
+312,22,2023-11-23,2023,Sebastian Maniscalco,1,Comedian,0,0,0,0,10
+313,22,2023-11-30,2023,Sterling K. Brown,1,Actor,0,0,0,0,11
+314,22,2023-12-07,2023,Mark Ruffalo,1,Actor,0,0,0,0,12
+315,23,2024-01-25,2024,Sydney Sweeney,1,Actor,0,0,0,0,1
+316,23,2024-02-01,2024,John Oliver,1,Media/Host,0,0,0,0,2
+317,23,2024-02-08,2024,Barry Keoghan,1,Actor,0,0,0,0,3
+318,23,2024-02-15,2024,Lil Dicky,1,Music,0,0,0,0,4
+319,23,2024-02-22,2024,Quinta Brunson,1,Actor,0,0,0,0,5
+320,23,2024-02-29,2024,Finn Wolfhard,1,Actor,0,0,0,0,6
+321,23,2024-03-07,2024,Jamie Dornan,1,Actor,0,0,0,0,7
+322,23,2024-03-14,2024,Zayn Malik,1,Music,0,0,0,0,8
+323,23,2024-03-21,2024,Gwyneth Paltrow,1,Actor,0,0,0,0,9
+324,23,2024-03-28,2024,Ice Spice,1,Music,0,0,0,0,10
+325,23,2024-04-04,2024,Shakira,1,Music,0,0,0,0,11
+326,23,2024-04-11,2024,Conan O'Brien,1,Media/Host,0,0,0,0,12
+327,23,2024-04-18,2024,Ludacris,1,Music,1,0,0,0,13
+328,24,2024-05-23,2024,Chris Hemsworth,1,Actor,0,0,0,0,1
+329,24,2024-05-30,2024,Lewis Hamilton,1,Athlete,0,0,0,0,2
+330,24,2024-06-06,2024,Will Smith,1,Actor,0,0,0,0,3
+331,24,2024-06-13,2024,Shane Gillis,1,Comedian,0,0,0,0,4
+332,24,2024-06-20,2024,Heidi Klum,1,Media/Host,0,0,0,0,5
+333,24,2024-06-27,2024,Lupita Nyong'o,1,Actor,0,0,0,0,6
+334,24,2024-07-04,2024,Serena Williams,1,Athlete,0,0,0,0,7
+335,24,2024-07-11,2024,Sabrina Carpenter,1,Music,0,0,0,0,8
+336,24,2024-07-18,2024,Childish Gambino,1,Music,0,0,0,0,9
+337,24,2024-07-25,2024,Ryan Reynolds;Hugh Jackman,2,Actor,0,0,0,0,10
+338,24,2024-08-01,2024,Vince Vaughn,1,Actor,0,0,0,0,11
+339,24,2024-08-08,2024,Ariana Grande,1,Music,0,0,0,0,12
+340,24,2024-08-23,2024,Donald Duck,1,Other,1,0,0,1,13
+341,25,2024-09-19,2024,Zlatan Ibrahimović,1,Athlete,0,0,0,0,1
+342,25,2024-09-26,2024,SZA,1,Music,0,0,0,0,2
+343,25,2024-10-03,2024,Jaylen Brown,1,Athlete,0,0,0,0,3
+344,25,2024-10-10,2024,Pharrell Williams,1,Music,0,0,0,0,4
+345,25,2024-10-17,2024,Peter Dinklage,1,Actor,0,0,0,0,5
+346,25,2024-10-21,2024,Peter Griffin,1,Other,1,0,0,1,6
+347,25,2024-10-24,2024,Ali Wong,1,Comedian,0,0,0,0,7
+348,25,2024-10-31,2024,Jimmy Fallon,1,Media/Host,0,0,0,0,8
+349,25,2024-11-07,2024,Rosé,1,Music,0,0,0,0,9
+350,25,2024-11-14,2024,Paul Mescal,1,Actor,0,0,0,0,10
+351,25,2024-11-21,2024,Bowen Yang,1,Comedian,0,0,0,0,11
+352,25,2024-11-25,2024,T-Pain,1,Music,1,0,0,0,12
+353,25,2024-11-28,2024,Demi Moore,1,Actor,0,0,0,0,13
+354,25,2024-12-05,2024,Ben Stiller,1,Actor,0,0,0,0,14
+355,26,2025-01-15,2025,Lil Yachty,1,Music,1,0,0,0,1
+356,26,2025-01-23,2025,Bad Bunny,1,Music,0,0,0,0,2
+357,26,2025-01-30,2025,Stavros Halkias,1,Comedian,0,0,0,0,3
+358,26,2025-02-06,2025,Questlove,1,Music,0,0,0,0,4
+359,26,2025-02-13,2025,Lady Gaga,1,Music,0,0,0,0,5
+360,26,2025-02-20,2025,Rob McElhenney,1,Actor,0,0,0,0,6
+361,26,2025-02-27,2025,Lisa,1,Music,0,0,0,0,7
+362,26,2025-03-06,2025,Bill Murray,1,Actor,0,0,0,0,8
+363,26,2025-03-13,2025,Kevin Hart,1,Comedian,0,0,0,0,9
+364,26,2025-03-20,2025,Benny Blanco;Selena Gomez,2,Music,0,0,0,0,10
+365,26,2025-03-27,2025,Eiza González,1,Actor,0,0,0,0,11
+366,26,2025-04-03,2025,Saquon Barkley,1,Athlete,0,0,0,0,12
+367,26,2025-04-10,2025,Will Forte,1,Comedian,0,0,0,0,13
+368,27,2025-05-22,2025,Aaron Paul,1,Actor,0,0,0,0,1
+369,27,2025-05-29,2025,Ana de Armas,1,Actor,0,0,0,0,2
+370,27,2025-06-05,2025,Tim Dillon,1,Comedian,0,0,0,0,3
+371,27,2025-06-12,2025,Dakota Johnson,1,Actor,0,0,0,0,4
+372,27,2025-06-19,2025,Jennie,1,Music,0,0,0,0,5
+373,27,2025-06-26,2025,Owen Wilson,1,Actor,0,0,0,0,6
+374,27,2025-07-03,2025,Adam Levine,1,Music,0,0,0,0,7
+375,27,2025-07-10,2025,Kai Cenat,1,Creator,0,0,0,0,8
+376,27,2025-07-14,2025,Maria Sharapova,1,Athlete,0,0,0,0,9
+377,27,2025-07-17,2025,Nicole Scherzinger,1,Music,0,0,0,0,10
+378,27,2025-07-24,2025,Sam Rockwell,1,Actor,0,0,0,0,11
+379,27,2025-07-31,2025,Cody Rhodes,1,Wrestling/MMA,0,0,0,0,12
+380,27,2025-08-07,2025,Macaulay Culkin,1,Actor,0,0,0,0,13
+381,28,2025-09-15,2025,Keke Palmer,1,Actor,0,0,0,0,1
+382,28,2025-09-18,2025,Jason Bateman,1,Actor,0,0,0,0,2
+383,28,2025-09-25,2025,Kate McKinnon,1,Comedian,0,0,0,0,3
+384,28,2025-10-02,2025,Channing Tatum,1,Actor,0,0,0,0,4
+385,28,2025-10-09,2025,Luka Dončić,1,Athlete,0,0,0,0,5
+386,28,2025-10-16,2025,Jeremy Allen White,1,Actor,0,0,0,0,6
+387,28,2025-10-23,2025,Adam Brody,1,Actor,0,0,0,0,7
+388,28,2025-10-30,2025,Rose Byrne,1,Actor,0,0,0,0,8
+389,28,2025-11-06,2025,Woody Harrelson,1,Actor,0,0,0,0,9
+390,28,2025-11-13,2025,Glen Powell,1,Actor,0,0,0,0,10
+391,28,2025-11-20,2025,Winona Ryder,1,Actor,0,0,0,0,11
+392,28,2025-11-27,2025,A'ja Wilson,1,Athlete,0,0,0,0,12
+393,28,2025-12-04,2025,Matthew McConaughey,1,Actor,0,0,0,0,13
+394,29,2026-01-22,2026,Jason Segel,1,Actor,0,0,0,0,1
+395,29,2026-01-29,2026,Will Arnett,1,Actor,0,0,0,0,2
+396,29,2026-02-05,2026,MrBeast,1,Creator,0,0,0,0,3
+398,29,2026-02-12,2026,Madison Beer,1,Music,0,0,0,0,4
+399,29,2026-02-19,2026,Daniel Radcliffe,1,Actor,0,0,0,0,5
+400,29,2026-02-26,2026,Teyana Taylor,1,Music,0,0,0,0,6
+401,29,2026-03-05,2026,Charlie Puth,1,Music,0,0,0,0,7
+402,29,2026-03-12,2026,Colman Domingo,1,Actor,0,0,0,0,8
+403,29,2026-03-19,2026,Luke Combs,1,Music,0,0,0,0,9
+404,29,2026-03-27,2026,Hilary Duff,1,Actor,0,0,0,0,10
+405,29,2026-04-02,2026,Oscar Isaac,1,Actor,0,0,0,0,11
+406,29,2026-04-09,2026,BTS,1,Music,0,0,0,0,12
+407,29,2026-04-13,2026,Rachel Brosnahan,1,Actor,0,0,0,0,13
+408,30,2026-05-18,2026,Tim Howard,1,Athlete,0,0,0,0,1
+409,30,2026-05-21,2026,Colin Jost,1,Comedian,0,0,0,0,2
+410,30,2026-05-28,2026,Emily Blunt,1,Actor,0,0,0,0,3
+411,30,2026-06-04,2026,Becky G,1,Music,0,0,0,0,4
+412,30,2026-06-11,2026,PinkPantheress,1,Music,0,0,0,0,5
+413,30,2026-06-18,2026,Jesse Eisenberg,1,Actor,0,0,0,0,6
+414,30,2026-06-25,2026,David Duchovny,1,Actor,0,0,0,0,7
+415,30,2026-07-02,2026,Penélope Cruz,1,Actor,0,0,0,0,8
+416,30,2026-07-09,2026,Millie Bobby Brown,1,Actor,0,0,0,0,9
+417,30,2026-07-16,2026,Marcello Hernandez,1,Comedian,0,0,0,0,10
+418,30,2026-07-23,2026,Tom Holland;Jon Bernthal,2,Actor,0,0,0,0,11
+419,30,2026-07-29,2026,Jisoo,1,Music,0,0,0,0,12
+420,30,2026-08-06,2026,Callum Turner,1,Actor,0,0,0,0,13
+421,30,2026-08-24,2026,Dave Franco,1,Actor,0,0,0,0,14
+422,30,2026-09-03,2026,Caleb Williams,1,Athlete,0,0,0,0,15
+423,30,2026-09-14,2026,Rob Gronkowski,1,Athlete,0,0,0,0,16
+424,31,2026-09-24,2026,Willem Dafoe,1,Actor,0,0,0,0,1
+425,31,2026-10-01,2026,Mikey Madison,1,Actor,0,0,0,0,2
+426,31,2026-10-08,2026,Liv Morgan,1,Wrestling/MMA,0,0,0,0,3
+427,31,2026-10-15,2026,Karl-Anthony Towns,1,Athlete,0,0,0,0,4
+428,31,2026-10-22,2026,Maya Hawke,1,Actor,0,0,0,0,5

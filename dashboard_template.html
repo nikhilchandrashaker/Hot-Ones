@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hot Ones Analytics Dashboard</title>
+<style>
+:root{color-scheme:light;--bg:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--axis:#c3c2b7;--border:rgba(11,11,11,.10);
+--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#898781;--crit:#d03b3b}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])){color-scheme:dark;--bg:#0d0d0d;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--grid:#2c2c2a;--axis:#383835;--border:rgba(255,255,255,.10);--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--crit:#e66767}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0d0d0d;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--grid:#2c2c2a;--axis:#383835;--border:rgba(255,255,255,.10);--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--crit:#e66767}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{padding:20px 16px 8px;max-width:1100px;margin:auto;display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+h1{font-size:22px;margin:0}h2{font-size:16px;margin:0 0 4px}p.sub{margin:2px 0 0;color:var(--ink2);font-size:13px}
+main{max-width:1100px;margin:auto;padding:0 16px 40px}
+nav{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--grid);margin:8px 0 16px}
+nav button,.tgl{background:none;border:0;color:var(--ink2);padding:8px 12px;font:inherit;cursor:pointer;border-bottom:2px solid transparent}
+nav button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--s1);font-weight:600}
+.tgl{border:1px solid var(--border);border-radius:6px;padding:4px 10px;font-size:13px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin-bottom:14px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:14px}
+.kpi{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 14px}.kpi b{font-size:26px;display:block}.kpi span{font-size:12px;color:var(--ink2)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--ink2);margin:6px 0}.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px}
+svg{width:100%;height:auto;display:block;overflow:visible}svg text{fill:var(--muted);font-size:11px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+input,select{background:var(--surface);color:var(--ink);border:1px solid var(--axis);border-radius:6px;padding:6px 8px;font:inherit}input[type=search]{min-width:240px}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;padding:5px 8px;border-bottom:1px solid var(--grid)}th{cursor:pointer;color:var(--ink2);position:sticky;top:0;background:var(--surface)}
+.scroll{max-height:460px;overflow:auto}.note{font-size:12px;color:var(--ink2)}
+#tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--axis);border-radius:6px;padding:6px 9px;font-size:12px;display:none;box-shadow:0 2px 8px rgba(0,0,0,.18);z-index:9;max-width:260px}
+.hidden{display:none}details summary{cursor:pointer;color:var(--ink2);font-size:13px;margin-top:6px}
+@media (max-width:600px){input[type=search]{min-width:100%}}
+</style></head><body>
+<header><div><h1>Hot Ones, 2015–2026: guests, heat and who taps out</h1>
+<p class="sub">Hand-built dataset of 427 numbered episodes, 31 seasons. Categories are analyst-coded; tap-out data is press-documented, not complete.</p></div>
+<button class="tgl" id="theme" aria-label="Toggle dark mode">Theme</button></header>
+<main>
+<nav role="tablist" id="tabs"></nav>
+<section id="overview"></section><section id="guests" class="hidden"></section><section id="heat" class="hidden"></section>
+<section id="shame" class="hidden"></section><section id="repeat" class="hidden"></section>
+<p class="note">Sources: Wikipedia list of episodes; hotsaucehell and Heatonist season pages; press coverage of tap-outs. Seasons 22–28 only have partial sauce SHU data. SHU = Scoville heat units, as published.</p>
+</main><div id="tip"></div>
+<script>
+const DATA=__DATA__;
+const $=s=>document.querySelector(s),NS="http://www.w3.org/2000/svg";
+const CATC={Actor:"--s1",Music:"--s2",Comedian:"--s3",Athlete:"--s4",Other:"--s5"};
+const cv=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt=n=>n==null?"–":n.toLocaleString("en-US");
+const tip=$("#tip");
+function showTip(e,html){tip.innerHTML=html;tip.style.display="block";const w=tip.offsetWidth;let x=e.clientX+14,y=e.clientY+14;if(x+w>innerWidth-8)x=e.clientX-w-14;tip.style.left=x+"px";tip.style.top=y+"px"}
+function hideTip(){tip.style.display="none"}
+function el(t,a={},p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
+function tx(p,x,y,s,anchor="middle"){const t=el("text",{x,y,"text-anchor":anchor},p);t.textContent=s;return t}
+function legend(items){return `<div class="legend">${items.map(([n,c])=>`<span><i style="background:var(${c})"></i>${n}</span>`).join("")}</div>`}
+function tableToggle(id,head,rows){return `<details><summary>Table view</summary><div class="scroll"><table><thead><tr>${head.map(h=>`<th>${h}</th>`).join("")}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div></details>`}
+const TABS=[["overview","Overview"],["guests","Guests & episodes"],["heat","Heat ramp"],["shame","Tap-outs"],["repeat","Repeat guests"]];
+$("#tabs").innerHTML=TABS.map(([id,n],i)=>`<button role="tab" data-t="${id}" aria-selected="${i==0}">${n}</button>`).join("");
+$("#tabs").onclick=e=>{const t=e.target.dataset.t;if(!t)return;go(t)};
+function go(t){document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.t==t));TABS.forEach(([id])=>$("#"+id).classList.toggle("hidden",id!=t));history.replaceState(null,"","#"+t)}
+$("#theme").onclick=()=>{const r=document.documentElement,d=r.dataset.theme?r.dataset.theme=="dark":matchMedia("(prefers-color-scheme:dark)").matches;r.dataset.theme=d?"light":"dark"};
+
+// ---------- Overview ----------
+(function(){
+const E=DATA.episodes,R=DATA.res,years=[...new Set(E.map(e=>e.year))].sort(),cats=["Actor","Music","Comedian","Athlete","Other"];
+const by={};years.forEach(y=>by[y]={n:0});E.forEach(e=>{by[e.year].n++;by[e.year][e.cat4]=(by[e.year][e.cat4]||0)+1});
+const et=R.era_test;
+$("#overview").innerHTML=`<div class="kpis">
+<div class="kpi"><b>${R.n_numbered_episodes}</b><span>numbered episodes</span></div><div class="kpi"><b>${R.n_unique_guest_names}</b><span>distinct guests</span></div>
+<div class="kpi"><b>${R.n_repeat_guests}</b><span>guests with 2+ appearances</span></div>
+<div class="kpi"><b>${Math.round(et.early_share.Actor*100)}% → ${Math.round(et.recent_share.Actor*100)}%</b><span>actor share, early vs recent era</span></div>
+<div class="kpi"><b>≥${(R.documented_non_finisher_rate_lower_bound*100).toFixed(1)}%</b><span>of episodes with a press-documented tap-out (lower bound)</span></div></div>
+<div class="card"><h2>Guest mix by year</h2><p class="sub">Share of each year's episodes (excluding character episodes) by guest category. Hover a bar.</p>${legend(cats.map(c=>[c,CATC[c]]))}<svg id="mix" viewBox="0 0 900 320" role="img" aria-label="Stacked bars of guest category share by year"></svg>
+${tableToggle("mix",["Year","Episodes",...cats],years.map(y=>[y,by[y].n,...cats.map(c=>by[y][c]||0)]))}
+<p class="note">Era comparison (2015–2018 vs 2023–2026, excluding specials): χ²(${et.dof})=${et.chi2.toFixed(1)}, Cramér's V=${et.cramers_v}. Actor odds rise ${((R.category_year_trend_logit.Actor.odds_ratio_per_year-1)*100).toFixed(0)}% per year (95% CI ${R.category_year_trend_logit.Actor.ci95.join("–")}); comedian odds fall.</p></div>`;
+const s=$("#mix"),W=900,H=320,m={l:40,r:10,t:10,b:28},iw=W-m.l-m.r,ih=H-m.t-m.b,bw=iw/years.length;
+[0,.25,.5,.75,1].forEach(v=>{const y=m.t+ih*(1-v);el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:cv("--grid"),"stroke-width":1},s);tx(s,m.l-6,y+4,Math.round(v*100)+"%","end")});
+years.forEach((yr,i)=>{let acc=0;const x=m.l+i*bw+bw*.18,w=bw*.64;tx(s,x+w/2,H-8,yr);
+ cats.forEach(c=>{const n=by[yr][c]||0;if(!n)return;const f=n/by[yr].n,y0=m.t+ih*(1-acc-f),h=ih*f;acc+=f;
+  const r=el("rect",{x,y:y0+1,width:w,height:Math.max(h-2,0),fill:cv(CATC[c]),rx:2},s);
+  r.onmousemove=e=>showTip(e,`<b>${yr}</b> · ${c}<br>${n} of ${by[yr].n} episodes (${(f*100).toFixed(0)}%)`);r.onmouseleave=hideTip})})
+})();
+
+// ---------- Guests ----------
+(function(){
+const E=DATA.all_episodes,cats=["All",...new Set(E.map(e=>e.category)).values()].sort((a,b)=>a=="All"?-1:a.localeCompare(b));
+$("#guests").innerHTML=`<div class="card"><div class="row"><input type="search" id="q" placeholder="Search guest name…" aria-label="Search guests"><select id="fc">${cats.map(c=>`<option>${c}</option>`).join("")}</select>
+<select id="fs"><option value="">All seasons</option>${[...new Set(E.map(e=>e.season))].map(s=>`<option>${s}</option>`).join("")}</select><span class="note" id="cnt"></span></div>
+<div class="scroll"><table><thead><tr><th data-k="episode">Ep</th><th data-k="season">Season</th><th data-k="air_date">Aired</th><th data-k="guests">Guest(s)</th><th data-k="category">Category</th><th>Notes</th></tr></thead><tbody id="gb"></tbody></table></div>
+<p class="note">Categories are my own coding of each guest's primary public identity. Notes: C character/non-human, B bonus, R removed from YouTube, H holiday.</p></div>`;
+let key="episode",dir=1;
+function draw(){const q=$("#q").value.toLowerCase(),c=$("#fc").value,s=$("#fs").value;
+ let r=E.filter(e=>(!q||e.guests.toLowerCase().includes(q))&&(c=="All"||e.category==c)&&(!s||e.season==s));
+ r.sort((a,b)=>(a[key]>b[key]?1:a[key]<b[key]?-1:0)*dir);$("#cnt").textContent=r.length+" episodes";
+ $("#gb").innerHTML=r.map(e=>`<tr><td>${e.episode}</td><td>${e.season}</td><td>${e.air_date}</td><td>${e.guests.replaceAll(";"," & ")}</td><td>${e.category}</td><td>${[e.is_character?"C":"",e.is_bonus?"B":"",e.is_removed?"R":"",e.is_holiday?"H":""].join(" ")}</td></tr>`).join("")}
+["q","fc","fs"].forEach(i=>$("#"+i).oninput=draw);
+document.querySelectorAll("#guests th[data-k]").forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=key==k?-dir:1;key=k;draw()});draw()})();
+
+// ---------- Heat ----------
+(function(){
+const S=DATA.sauces,R=DATA.res,full=[...new Set(S.filter(x=>x.wing==10&&x.shu).map(x=>x.season))];
+const seasons=[...new Set(S.map(x=>x.season))].sort((a,b)=>a-b);
+$("#heat").innerHTML=`<div class="card"><h2>The ramp: heat by wing</h2><p class="sub">Published Scoville heat units (log scale). The median line is the middle of seasons with a full lineup; pick a season to compare.</p>
+<div class="row"><label>Season <select id="hs"><option value="">None</option>${seasons.map(s=>`<option>${s}</option>`).join("")}</select></label></div>
+${legend([["Median across seasons","--s1"],["Selected season","--s2"]])}<svg id="ramp" viewBox="0 0 900 340" role="img" aria-label="Line chart of SHU by wing"></svg><div id="rt"></div></div>
+<div class="card"><h2>Where the cliff is</h2><p class="sub">Median multiple of the previous wing's SHU. Wing 8→9 is the biggest jump in a normal season.</p><svg id="steps" viewBox="0 0 900 240" role="img" aria-label="Bar chart of step ratios"></svg></div>
+<div class="card"><h2>Middle wings got hotter, wing 8 didn't</h2><p class="sub">Average log₁₀ SHU of wings 2–7 by season (Spearman ρ with season = ${0.90}).</p><svg id="drift" viewBox="0 0 900 240" role="img" aria-label="Line chart of mean log SHU by season"></svg></div>`;
+const wings=[1,2,3,4,5,6,7,8,9,10];
+function draw(){const s=$("#ramp");s.innerHTML="";const W=900,H=340,m={l:62,r:14,t:10,b:30},iw=W-m.l-m.r,ih=H-m.t-m.b;
+ const lo=2.5,hi=6.5,X=w=>m.l+(w-1)/9*iw,Y=v=>m.t+ih*(1-(Math.log10(v)-lo)/(hi-lo));
+ [3,4,5,6].forEach(p=>{const y=Y(10**p);el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:cv("--grid")},s);tx(s,m.l-6,y+4,fmt(10**p),"end")});
+ wings.forEach(w=>tx(s,X(w),H-8,w));
+ const line=(pts,col,label)=>{const v=pts.filter(p=>p.v);el("path",{d:v.map((p,i)=>(i?"L":"M")+X(p.w)+","+Y(p.v)).join(""),fill:"none",stroke:cv(col),"stroke-width":2},s);
+  v.forEach(p=>{const c=el("circle",{cx:X(p.w),cy:Y(p.v),r:4,fill:cv(col),stroke:cv("--surface"),"stroke-width":2},s);c.onmousemove=e=>showTip(e,`<b>${label}</b> · wing ${p.w}<br>${p.n||""}<br>${fmt(p.v)} SHU`);c.onmouseleave=hideTip})};
+ line(wings.map(w=>({w,v:R.median_shu_by_wing[w],n:"Median sauce SHU"})),"--s1","Median");
+ const sel=$("#hs").value;let rows=wings.map(w=>[w,fmt(R.median_shu_by_wing[w]),""]);
+ if(sel){const L=S.filter(x=>x.season==sel);line(L.map(x=>({w:x.wing,v:x.shu,n:x.sauce})),"--s2","Season "+sel);rows=wings.map(w=>{const x=L.find(y=>y.wing==w);return[w,fmt(R.median_shu_by_wing[w]),x?`${x.sauce} (${fmt(x.shu)})`:"–"]})}
+ $("#rt").innerHTML=tableToggle("r",["Wing","Median SHU",sel?"Season "+sel:""],rows)}
+$("#hs").onchange=draw;draw();
+// steps
+(function(){const s=$("#steps"),W=900,H=240,m={l:40,r:10,t:10,b:30},iw=W-m.l-m.r,ih=H-m.t-m.b,max=6,bw=iw/9;
+ [0,2,4,6].forEach(v=>{const y=m.t+ih*(1-v/max);el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:cv("--grid")},s);tx(s,m.l-6,y+4,v+"×","end")});
+ for(let i=1;i<=9;i++){const r=R.step_ratio_by_wing[i].median_ratio,x=m.l+(i-1)*bw+bw*.25,h=ih*r/max,rc=el("rect",{x,y:m.t+ih-h,width:bw*.5,height:h,fill:cv(i==8||i==9?"--s2":"--s1"),rx:3},s);
+  tx(s,x+bw*.25,H-10,`${i}→${i+1}`);rc.onmousemove=e=>showTip(e,`Wing ${i} → ${i+1}<br>median ×${r} (n=${R.step_ratio_by_wing[i].n} seasons)`);rc.onmouseleave=hideTip}})();
+// drift
+(function(){const s=$("#drift"),d=R.mean_log10_wings2to7_by_season,ks=Object.keys(d).map(Number).sort((a,b)=>a-b),W=900,H=240,m={l:46,r:10,t:10,b:30},iw=W-m.l-m.r,ih=H-m.t-m.b;
+ const lo=3.9,hi=4.8,X=i=>m.l+(ks[i]-1)/29*iw,Y=v=>m.t+ih*(1-(v-lo)/(hi-lo));
+ [4,4.25,4.5,4.75].forEach(v=>{el("line",{x1:m.l,x2:W-m.r,y1:Y(v),y2:Y(v),stroke:cv("--grid")},s);tx(s,m.l-6,Y(v)+4,v,"end")});
+ el("path",{d:ks.map((k,i)=>((i&&ks[i]-ks[i-1]==1)?"L":"M")+X(i)+","+Y(d[k])).join(""),fill:"none",stroke:cv("--s1"),"stroke-width":2},s);tx(s,(X(ks.indexOf(21))+X(ks.indexOf(29)))/2,H-30,"seasons 22–28: no full lineups");
+ ks.forEach((k,i)=>{if(i%2==0)tx(s,X(i),H-8,"S"+k);const c=el("circle",{cx:X(i),cy:Y(d[k]),r:4,fill:cv("--s1"),stroke:cv("--surface"),"stroke-width":2},s);c.onmousemove=e=>showTip(e,`Season ${k}<br>mean log₁₀ SHU (wings 2–7): ${d[k]}`);c.onmouseleave=hideTip})})();
+})();
+
+// ---------- Tap-outs ----------
+(function(){
+const N=DATA.nonf,R=DATA.res,c=R.last_wing_counts;
+$("#shame").innerHTML=`<div class="card"><h2>Who tapped out, and where</h2><p class="sub">${N.length} press-documented non-finishers; last wing known for ${N.filter(n=>n.last_wing_eaten).length}. This is a floor, not a census: Hot Ones does not publish completion data.</p>
+<svg id="lw" viewBox="0 0 900 220" role="img" aria-label="Bar chart of last wing eaten"></svg>
+<p class="note">${Math.round(.727*100)}% of those with a known stopping point stopped after wing 8 (Da Bomb). Exact binomial test vs. uniform stopping: p&lt;0.001.</p></div>
+<div class="card"><div class="scroll"><table><thead><tr><th>Guest</th><th>Ep</th><th>Aired</th><th>Category</th><th>Last wing</th><th>Confidence</th><th>Note</th></tr></thead><tbody>${N.map(n=>`<tr><td>${n.guest}</td><td>${n.episode}</td><td>${n.air_date}</td><td>${n.category}</td><td>${n.last_wing_eaten??"?"}</td><td>${n.confidence}</td><td>${n.note}</td></tr>`).join("")}</tbody></table></div></div>`;
+const s=$("#lw"),W=900,H=220,m={l:40,r:10,t:10,b:30},iw=W-m.l-m.r,ih=H-m.t-m.b,bw=iw/10,mx=9;
+[0,3,6,9].forEach(v=>{const y=m.t+ih*(1-v/mx);el("line",{x1:m.l,x2:W-m.r,y1:y,y2:y,stroke:cv("--grid")},s);tx(s,m.l-6,y+4,v,"end")});
+for(let w=1;w<=10;w++){const n=c[w]||0,x=m.l+(w-1)*bw+bw*.25,h=ih*n/mx;tx(s,x+bw*.25,H-10,"wing "+w);
+ const r=el("rect",{x,y:m.t+ih-h,width:bw*.5,height:Math.max(h,1),fill:cv(w==8?"--s2":"--s1"),rx:3},s);r.onmousemove=e=>showTip(e,`Stopped after wing ${w}: ${n} guest(s)`);r.onmouseleave=hideTip}
+})();
+
+// ---------- Repeat ----------
+(function(){const r=DATA.res.repeat_guests;
+$("#repeat").innerHTML=`<div class="card"><h2>${r.length} guests have been back</h2><div class="scroll"><table><thead><tr><th>Guest</th><th>Appearances</th></tr></thead><tbody>${r.map(g=>`<tr><td>${g.guest}</td><td>${g.appearances}</td></tr>`).join("")}</tbody></table></div><p class="note">Counts include numbered episodes only (special reunions on other shows excluded).</p></div>`})();
+go((location.hash||"#overview").slice(1)in{overview:1,guests:1,heat:1,shame:1,repeat:1}?(location.hash||"#overview").slice(1):"overview");
+</script></body></html>
